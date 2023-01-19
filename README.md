@@ -2,9 +2,9 @@
 
 ## Use Json data to fill the form
 
-### Step to run the test
+### Email and Password is hidden, you should use your valid email and password in order to run this test
 
-#### Email and Password is hidden, you should use your valid email and password in order to run this test
+#### Step to run the test
 
 - Step 1: Clone this repo
   ```
