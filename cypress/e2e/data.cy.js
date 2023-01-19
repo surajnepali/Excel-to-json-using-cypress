@@ -95,7 +95,7 @@ describe("Reading Data from newly created json file",function()
                 addHotelPage.getAddBtn().should('exist').contains('Add Hotel').click()
                 cy.wait(3000)
                 addHotelPage.getToastMessage().should('exist').should('have.text','New Hotel successfully created.')
-                
+                hotelPage.getFirstHotel().should('exist').and('have.text', user.HomeStay[j].hotelName)
             }
         })
 
