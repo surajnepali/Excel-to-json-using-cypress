@@ -2,7 +2,7 @@
 
 ## Use Json data to fill the form
 
-###Step to run the test
+### Step to run the test
 
 - Step 1: Clone this repo
   ```
