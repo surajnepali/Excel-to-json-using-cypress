@@ -4,6 +4,8 @@
 
 ### Step to run the test
 
+#### Email and Password is hidden, you should use your valid email and password in order to run this test
+
 - Step 1: Clone this repo
   ```
   git clone git@github.com:surajnepali/Excel-to-json-using-cypress.git
