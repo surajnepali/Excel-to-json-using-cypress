@@ -1,0 +1,19 @@
+{
+  "obj": {
+    "hotelName": "b Homestay",
+    "place": "Ghandruk",
+    "latitude": 28.4633,
+    "longitude": 83.8261,
+    "contactNumberOne": 9800000000,
+    "contactNumberTwo": 9811111111,
+    "hotelEmail": "homestay@mail.com",
+    "roomType": "double",
+    "noOfRoom": 14,
+    "pricePerRoom": 1500,
+    "roomDescription": "Room contains attached bathroom with beautiful decoration.",
+    "package": "Ghandruk Homestay",
+    "timeCheckIn": 1100,
+    "timeCheckOut": 1130,
+    "description": "This is description of Mitra Homestay."
+  }
+}
