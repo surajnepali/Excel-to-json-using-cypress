@@ -41,9 +41,9 @@ describe("Reading Data from newly created json file",function()
         loginPage.getTitle().should('exist').contains('Welcome')
         loginPage.getSemiTitle().should('exist').contains('Login to continue')
 
-        //email is invalid, you should use valid email and password to run this code without any errrors
-        loginPage.getEmailField().should('exist').type('admin@gmail.com') 
-        loginPage.getPasswordField().should('exist').type('admin12345')
+        //login credentials are invalid, you should use valid email and password to run this code without any errrors
+        loginPage.getEmailField().should('exist').type('*************') 
+        loginPage.getPasswordField().should('exist').type('*********')
         loginPage.getBtn().should('exist').should('contain', 'Login').click()
         loginPage.getToastMessage().should('exist').should('have.text','Successfully Login.')
         homePage.getHotelModule().should('exist').and('have.text', 'Hotel').click()
